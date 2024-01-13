@@ -1,0 +1,16 @@
+{
+    "target_column": "target",
+    "preprocessing": {
+        "impute_method": "mean",
+        "variable_selector": "RandomForestRegressor"
+    },
+    "modeling":{
+        "algorithm": "RandomForestRegressor",
+        "param_grid" : {
+            "n_estimators": [50, 100],
+            "max_depth": [10, 20],
+            "min_samples_split": [5],
+            "min_samples_leaf": [4]
+        }
+    }
+}
