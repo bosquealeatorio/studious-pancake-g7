@@ -19,7 +19,7 @@ conda activate pancake-env`
 To run the grid search and log the experiments use
 
 ```
-python scripts/training.py
+python src/training.py
 ```
 
 ## MLFlow
