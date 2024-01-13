@@ -1,0 +1,46 @@
+# macOS system files
+*.DS_Store
+
+# Python-related
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebooks
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.h5
+*.sqlite
+*.db
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite3
+
+# Package files
+*.zip
+*.tar
+*.gz
+
+# Miscellaneous
+*.bak
+*.swp
+*~
